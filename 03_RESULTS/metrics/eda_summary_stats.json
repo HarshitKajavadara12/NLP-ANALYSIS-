@@ -1,0 +1,40 @@
+{
+  "overview": {
+    "total_articles": 63,
+    "unique_companies": 19,
+    "date_span_days": 114,
+    "sources": 1
+  },
+  "article_length_stats": {
+    "count": 63.0,
+    "mean": 116.0952380952381,
+    "std": 23.10335423609579,
+    "min": 100.0,
+    "25%": 104.5,
+    "50%": 111.0,
+    "75%": 121.0,
+    "max": 267.0
+  },
+  "word_count_stats": {
+    "count": 63.0,
+    "mean": 15.26984126984127,
+    "std": 3.823553275660967,
+    "min": 11.0,
+    "25%": 13.0,
+    "50%": 14.0,
+    "75%": 16.0,
+    "max": 37.0
+  },
+  "temporal": {
+    "earliest_article": "2025-09-26 07:00:00",
+    "latest_article": "2026-01-18 12:19:48",
+    "busiest_day": "Friday",
+    "peak_hour": 8
+  },
+  "coverage": {
+    "most_covered_ticker": "ABT",
+    "most_covered_count": 7,
+    "least_covered_ticker": "AEP",
+    "least_covered_count": 1
+  }
+}

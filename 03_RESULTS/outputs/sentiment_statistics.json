@@ -1,0 +1,20 @@
+{
+  "finbert": {
+    "positive_pct": 49.2063492063492,
+    "neutral_pct": 28.57142857142857,
+    "negative_pct": 22.22222222222222,
+    "avg_sentiment": 0.11542698412698413
+  },
+  "vader": {
+    "positive_pct": 49.2063492063492,
+    "neutral_pct": 28.57142857142857,
+    "negative_pct": 22.22222222222222,
+    "avg_sentiment": 0.11542698412698413
+  },
+  "textblob": {
+    "positive_pct": 31.746031746031743,
+    "neutral_pct": 63.49206349206349,
+    "negative_pct": 4.761904761904762,
+    "avg_sentiment": 0.09435024851691518
+  }
+}

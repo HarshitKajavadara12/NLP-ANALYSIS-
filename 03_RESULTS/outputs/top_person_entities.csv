@@ -1,0 +1,11 @@
+entity,count,num_articles,primary_type,all_types,tickers,num_tickers
+Banco Bradesco,2,1,PERSON,"PERSON:1,ORG:1",BBD,1
+Hock Tan,1,1,PERSON,PERSON:1,AVGO,1
+Share Price,1,1,PERSON,PERSON:1,APA,1
+BABA Shares Sold,1,1,PERSON,PERSON:1,BABA,1
+Lobbying Update,1,1,PERSON,PERSON:1,AMGN,1
+AMGN,1,1,PERSON,PERSON:1,AMGN,1
+Abbott Shows,1,1,PERSON,PERSON:1,ABT,1
+Luck With Strong Cash Flow,1,1,PERSON,PERSON:1,ABT,1
+Drop,1,1,PERSON,PERSON:1,AVGO,1
+Qwen App Gains,1,1,PERSON,PERSON:1,BABA,1

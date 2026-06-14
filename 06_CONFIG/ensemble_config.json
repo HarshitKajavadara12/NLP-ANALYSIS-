@@ -1,0 +1,204 @@
+{
+  "base_models": {
+    "logistic_regression": {
+      "model": "LogisticRegression",
+      "params": {
+        "C": 1.0,
+        "penalty": "l2",
+        "solver": "lbfgs",
+        "max_iter": 1000,
+        "class_weight": "balanced",
+        "random_state": 42
+      },
+      "description": "Linear model with L2 regularization, good for interpretability"
+    },
+    "random_forest": {
+      "model": "RandomForestClassifier",
+      "params": {
+        "n_estimators": 200,
+        "max_depth": 20,
+        "min_samples_split": 10,
+        "min_samples_leaf": 4,
+        "max_features": "sqrt",
+        "class_weight": "balanced",
+        "random_state": 42,
+        "n_jobs": -1
+      },
+      "description": "Ensemble of decision trees, robust to overfitting"
+    },
+    "gradient_boosting": {
+      "model": "GradientBoostingClassifier",
+      "params": {
+        "n_estimators": 200,
+        "learning_rate": 0.1,
+        "max_depth": 5,
+        "subsample": 0.8,
+        "min_samples_split": 10,
+        "min_samples_leaf": 4,
+        "random_state": 42
+      },
+      "description": "Sequential boosting of weak learners"
+    },
+    "xgboost": {
+      "model": "XGBClassifier",
+      "params": {
+        "n_estimators": 200,
+        "learning_rate": 0.1,
+        "max_depth": 7,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "gamma": 0.1,
+        "reg_alpha": 0.1,
+        "reg_lambda": 1.0,
+        "scale_pos_weight": 1.0,
+        "random_state": 42,
+        "eval_metric": "logloss",
+        "use_label_encoder": false
+      },
+      "description": "Optimized gradient boosting, handles missing values"
+    },
+    "lightgbm": {
+      "model": "LGBMClassifier",
+      "params": {
+        "n_estimators": 200,
+        "learning_rate": 0.1,
+        "max_depth": 7,
+        "num_leaves": 31,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "reg_alpha": 0.1,
+        "reg_lambda": 1.0,
+        "min_child_samples": 20,
+        "random_state": 42,
+        "verbose": -1
+      },
+      "description": "Fast gradient boosting with leaf-wise growth"
+    },
+    "svm": {
+      "model": "SVC",
+      "params": {
+        "C": 1.0,
+        "kernel": "rbf",
+        "gamma": "scale",
+        "class_weight": "balanced",
+        "probability": true,
+        "random_state": 42
+      },
+      "description": "Support Vector Machine with RBF kernel"
+    },
+    "naive_bayes": {
+      "model": "GaussianNB",
+      "params": {
+        "var_smoothing": 1e-09
+      },
+      "description": "Probabilistic classifier based on Bayes theorem"
+    },
+    "knn": {
+      "model": "KNeighborsClassifier",
+      "params": {
+        "n_neighbors": 7,
+        "weights": "distance",
+        "metric": "minkowski",
+        "n_jobs": -1
+      },
+      "description": "Instance-based learning with distance weighting"
+    }
+  },
+  "ensemble_methods": {
+    "voting_hard": {
+      "method": "VotingClassifier",
+      "params": {
+        "voting": "hard"
+      },
+      "description": "Majority vote from all base models",
+      "base_models": ["logistic_regression", "random_forest", "xgboost"]
+    },
+    "voting_soft": {
+      "method": "VotingClassifier",
+      "params": {
+        "voting": "soft",
+        "weights": [1, 2, 2, 3, 3, 1, 1, 1]
+      },
+      "description": "Weighted average of predicted probabilities",
+      "base_models": ["logistic_regression", "random_forest", "gradient_boosting", "xgboost", "lightgbm", "svm", "naive_bayes", "knn"]
+    },
+    "bagging": {
+      "method": "BaggingClassifier",
+      "params": {
+        "n_estimators": 10,
+        "max_samples": 0.8,
+        "max_features": 0.8,
+        "bootstrap": true,
+        "random_state": 42,
+        "n_jobs": -1
+      },
+      "description": "Bootstrap aggregating with random forest base",
+      "base_estimator": "random_forest"
+    },
+    "stacking": {
+      "method": "StackingClassifier",
+      "params": {
+        "cv": 5,
+        "stack_method": "predict_proba"
+      },
+      "description": "Meta-learner trained on base model predictions",
+      "base_models": ["logistic_regression", "random_forest", "gradient_boosting", "xgboost", "lightgbm"],
+      "meta_learner": {
+        "model": "LogisticRegression",
+        "params": {
+          "C": 1.0,
+          "random_state": 42
+        }
+      }
+    }
+  },
+  "feature_selection": {
+    "method": "SelectKBest",
+    "k": 20,
+    "score_func": "f_classif",
+    "description": "Select top 20 features using ANOVA F-statistic"
+  },
+  "preprocessing": {
+    "scaler": "StandardScaler",
+    "handle_missing": "median",
+    "remove_outliers": true,
+    "outlier_threshold": 3.0
+  },
+  "cross_validation": {
+    "method": "TimeSeriesSplit",
+    "n_splits": 5,
+    "test_size_ratio": 0.2,
+    "description": "Time-aware split to prevent lookahead bias"
+  },
+  "evaluation_metrics": [
+    "accuracy",
+    "precision",
+    "recall",
+    "f1_score",
+    "roc_auc",
+    "log_loss",
+    "confusion_matrix",
+    "classification_report"
+  ],
+  "hyperparameter_tuning": {
+    "method": "RandomizedSearchCV",
+    "n_iter": 50,
+    "cv": 3,
+    "scoring": "roc_auc",
+    "random_state": 42,
+    "n_jobs": -1
+  },
+  "model_persistence": {
+    "format": "joblib",
+    "compression": 3,
+    "save_feature_names": true,
+    "save_scaler": true
+  },
+  "performance_targets": {
+    "accuracy": 0.88,
+    "precision": 0.87,
+    "recall": 0.85,
+    "f1_score": 0.86,
+    "roc_auc": 0.92
+  }
+}

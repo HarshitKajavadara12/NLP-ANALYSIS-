@@ -1,0 +1,51 @@
+{
+  "financial_terms": {
+    "positive": [
+      "profit", "gain", "growth", "increase", "rise", "surge", "jump", "boom",
+      "bull", "rally", "upgrade", "beat", "exceed", "outperform", "strong",
+      "robust", "solid", "impressive", "record", "peak", "milestone", "success",
+      "breakthrough", "innovation", "expansion", "acquire", "merger", "deal",
+      "dividend", "buyback", "revenue", "earnings", "optimistic", "confident"
+    ],
+    "negative": [
+      "loss", "decline", "decrease", "fall", "drop", "plunge", "crash", "bear",
+      "selloff", "downgrade", "miss", "underperform", "weak", "disappointing",
+      "concern", "worry", "risk", "threat", "crisis", "recession", "bankruptcy",
+      "layoff", "restructure", "investigation", "fraud", "scandal", "lawsuit",
+      "penalty", "fine", "default", "debt", "pessimistic", "cautious"
+    ],
+    "neutral": [
+      "report", "announce", "statement", "release", "update", "conference",
+      "meeting", "discuss", "plan", "strategy", "forecast", "outlook", "expect",
+      "project", "estimate", "data", "figure", "number", "quarter", "year"
+    ]
+  },
+  "company_indicators": [
+    "Inc", "Corp", "Corporation", "Ltd", "Limited", "LLC", "Co", "Company",
+    "Group", "Holdings", "Technologies", "Systems", "Solutions", "Services"
+  ],
+  "executive_titles": [
+    "CEO", "CFO", "COO", "CTO", "CMO", "CIO", "President", "Chairman",
+    "Director", "VP", "Vice President", "Chief", "Officer", "Head"
+  ],
+  "financial_metrics": [
+    "EPS", "P/E", "revenue", "profit", "margin", "EBITDA", "ROI", "ROE",
+    "debt", "equity", "cash flow", "dividend", "yield", "market cap",
+    "shares", "stock price", "valuation", "guidance", "forecast"
+  ],
+  "market_terms": [
+    "S&P 500", "Nasdaq", "Dow Jones", "NYSE", "market", "index", "sector",
+    "industry", "stock", "share", "equity", "bond", "futures", "options",
+    "trading", "volume", "volatility", "liquidity"
+  ],
+  "event_keywords": {
+    "earnings": ["earnings", "EPS", "beat", "miss", "guidance", "quarterly", "results"],
+    "merger": ["merger", "acquisition", "M&A", "acquire", "buy", "purchase", "takeover"],
+    "product": ["launch", "release", "unveil", "introduce", "product", "service", "platform"],
+    "regulatory": ["SEC", "FTC", "FDA", "regulation", "compliance", "investigation", "approval"],
+    "executive": ["CEO", "resign", "appoint", "hire", "depart", "succession", "leadership"],
+    "legal": ["lawsuit", "sue", "settlement", "litigation", "court", "trial", "verdict"],
+    "partnership": ["partner", "alliance", "collaborate", "agreement", "deal", "contract"],
+    "disruption": ["outage", "breach", "hack", "cyber", "failure", "incident", "issue"]
+  }
+}

@@ -1,0 +1,2 @@
+event,finbert_sentiment,vader_compound,textblob_polarity
+EARNINGS_ANNOUNCEMENT,0.2732,0.2732,0.0

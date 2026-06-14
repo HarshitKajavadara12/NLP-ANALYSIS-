@@ -1,0 +1,48 @@
+{
+  "dataset": {
+    "total_samples": 63,
+    "train_samples": 50,
+    "test_samples": 13,
+    "num_features": 18
+  },
+  "base_models": {
+    "count": 8,
+    "models": [
+      "Logistic Regression",
+      "Random Forest",
+      "Gradient Boosting",
+      "XGBoost",
+      "LightGBM",
+      "SVM",
+      "Naive Bayes",
+      "KNN"
+    ],
+    "best_base_model": "XGBoost",
+    "best_base_accuracy": 0.9230769230769231
+  },
+  "ensemble_methods": {
+    "count": 4,
+    "methods": [
+      "Hard Voting",
+      "Soft Voting",
+      "Bagging",
+      "Stacking"
+    ],
+    "hard_voting_accuracy": 0.9230769230769231,
+    "soft_voting_accuracy": 0.9230769230769231,
+    "bagging_accuracy": 0.7692307692307693,
+    "stacking_accuracy": 0.9230769230769231
+  },
+  "best_overall": {
+    "model": "XGBoost",
+    "type": "Base Model",
+    "accuracy": 0.9230769230769231,
+    "f1_score": 0.9137529137529138
+  },
+  "benchmark_comparison": {
+    "industry_benchmark": "85-90%",
+    "target": "88.9%",
+    "achieved": 0.9230769230769231,
+    "meets_target": true
+  }
+}

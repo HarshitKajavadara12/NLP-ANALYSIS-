@@ -1,0 +1,35 @@
+{
+  "total_articles": 63,
+  "articles_with_events": 1,
+  "coverage_rate": 0.015873015873015872,
+  "total_events_detected": 1,
+  "avg_events_per_article": 0.015873015873015872,
+  "event_distribution": {
+    "EARNINGS_ANNOUNCEMENT": 1
+  },
+  "impact_distribution": {
+    "HIGH": 0,
+    "MEDIUM": 1,
+    "LOW": 62
+  },
+  "avg_impact_score": 0.007173968253968254,
+  "companies_analyzed": 19,
+  "top_10_events": [
+    [
+      "EARNINGS_ANNOUNCEMENT",
+      1
+    ]
+  ],
+  "event_sentiment_correlation": [
+    {
+      "event": "EARNINGS_ANNOUNCEMENT",
+      "finbert_sentiment": 0.2732,
+      "vader_compound": 0.2732,
+      "textblob_polarity": 0.0
+    }
+  ],
+  "date_range": {
+    "start": "2025-09-26 07:00:00",
+    "end": "2026-01-18 12:19:48"
+  }
+}

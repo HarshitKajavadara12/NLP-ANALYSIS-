@@ -1,0 +1,92 @@
+{
+  "dataset": {
+    "total_articles": 63,
+    "date_range": {
+      "start": "2025-09-26 07:00:00",
+      "end": "2026-01-18 12:19:48"
+    },
+    "companies": 19
+  },
+  "signal_distribution": {
+    "Neutral": "42",
+    "Strong Sell": "19",
+    "Buy": "1",
+    "Sell": "1"
+  },
+  "performance_metrics": {
+    "win_rate": 0.5079365079365079,
+    "sharpe_ratio": NaN,
+    "sortino_ratio": NaN,
+    "calmar_ratio": NaN,
+    "max_drawdown": -0.13168562631614242,
+    "avg_return": NaN,
+    "return_volatility": NaN
+  },
+  "signal_factors": {
+    "sentiment_weight": 0.35,
+    "event_impact_weight": 0.25,
+    "news_velocity_weight": 0.2,
+    "entity_prominence_weight": 0.15,
+    "topic_relevance_weight": 0.05
+  },
+  "benchmark_comparison": {
+    "win_rate": {
+      "achieved": 0.5079365079365079,
+      "target": 0.563,
+      "benchmark_range": "52-58%",
+      "meets_target": false
+    },
+    "sharpe_ratio": {
+      "achieved": NaN,
+      "target": 1.87,
+      "benchmark_range": "1.2-1.8",
+      "meets_target": false
+    }
+  },
+  "top_companies": {
+    "most_bullish": [
+      {
+        "ticker": "ASML",
+        "avg_signal": 0.3074776959443092
+      },
+      {
+        "ticker": "AXP",
+        "avg_signal": 0.20911269594430923
+      },
+      {
+        "ticker": "BBD",
+        "avg_signal": 0.1797519421663284
+      },
+      {
+        "ticker": "BABA",
+        "avg_signal": 0.15470656408348082
+      },
+      {
+        "ticker": "APA",
+        "avg_signal": 0.13034045981899897
+      }
+    ],
+    "most_bearish": [
+      {
+        "ticker": "ACN",
+        "avg_signal": -0.025026749999999997
+      },
+      {
+        "ticker": "AMT",
+        "avg_signal": -0.08834303135871886
+      },
+      {
+        "ticker": "AMZN",
+        "avg_signal": -0.20279719594430926
+      },
+      {
+        "ticker": "ADBE",
+        "avg_signal": -0.2693921959443092
+      },
+      {
+        "ticker": "AEP",
+        "avg_signal": NaN
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "total_records": 63,
+  "unique_tickers": 19,
+  "unique_sources": 1,
+  "date_range": {
+    "start": "2025-09-26 07:00:00",
+    "end": "2026-01-18 12:19:48",
+    "days": 114
+  },
+  "completeness": {
+    "title": "100.00%",
+    "text": "100.00%",
+    "date": "100.00%",
+    "ticker": "100.00%",
+    "source": "100.00%"
+  },
+  "content_stats": {
+    "avg_article_length": 116,
+    "avg_word_count": 15,
+    "median_article_length": 111,
+    "median_word_count": 14
+  },
+  "temporal_stats": {
+    "avg_articles_per_day": 3.15,
+    "max_articles_per_day": 12,
+    "min_articles_per_day": 1
+  },
+  "coverage_stats": {
+    "top_5_tickers": {
+      "ABT": 7,
+      "AVGO": 6,
+      "BABA": 6,
+      "BAC": 5,
+      "APA": 4
+    },
+    "avg_articles_per_ticker": 3.3157894736842106
+  }
+}

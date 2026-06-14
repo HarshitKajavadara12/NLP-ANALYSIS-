@@ -1,0 +1,21 @@
+entity,count,num_articles,primary_type,all_types,tickers,num_tickers
+Yahoo Finance,12,12,ORG,ORG:12,"ABT,ACN,AMD,AMGN,APA,AVB,AZN,BABA,BBD",9
+Boeing,7,4,ORG,ORG:7,BA,1
+Abbott Laboratories,7,4,ORG,ORG:7,ABT,1
+Bank of America,6,3,ORG,ORG:6,BAC,1
+BA,6,4,ORG,"ORG:5,NORP:1","BA,BABA",2
+ABT,5,4,ORG,ORG:5,ABT,1
+AI,5,4,ORG,"ORG:3,MISC:2","ADBE,AMD,AMT",3
+APA,5,3,ORG,ORG:5,APA,1
+NYSE,5,5,ORG,ORG:5,"ABT,AMT,AVB",3
+American Tower,4,2,ORG,"ORG:3,LOC:1",AMT,1
+In,4,3,ORG,ORG:4,"AMD,BA",2
+AvalonBay Communities,4,2,ORG,ORG:4,AVB,1
+BABA,4,4,ORG,ORG:4,BABA,1
+Broadcom,3,3,ORG,ORG:3,AVGO,1
+AMD,3,2,ORG,ORG:3,AMD,1
+Goldman Sachs,3,2,ORG,ORG:3,"AZN,BBD",2
+Wells Fargo,3,2,ORG,ORG:3,"AMD,AVGO",2
+Alibaba Group Holding Limited,3,2,ORG,ORG:3,BABA,1
+Alibaba,3,2,ORG,"ORG:2,NORP:1",BABA,1
+Amazon,3,2,ORG,ORG:3,AMZN,1

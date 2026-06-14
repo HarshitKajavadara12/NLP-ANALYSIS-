@@ -1,0 +1,227 @@
+entity,count,num_articles,primary_type,all_types,tickers,num_tickers
+Yahoo Finance,12,12,ORG,ORG:12,"ABT,ACN,AMD,AMGN,APA,AVB,AZN,BABA,BBD",9
+Boeing,7,4,ORG,ORG:7,BA,1
+Abbott Laboratories,7,4,ORG,ORG:7,ABT,1
+2026,6,5,DATE,DATE:6,"AAPL,AMD,AVGO,BA",4
+Bank of America,6,3,ORG,ORG:6,BAC,1
+BA,6,4,ORG,"ORG:5,NORP:1","BA,BABA",2
+ABT,5,4,ORG,ORG:5,ABT,1
+AI,5,4,ORG,"ORG:3,MISC:2","ADBE,AMD,AMT",3
+APA,5,3,ORG,ORG:5,APA,1
+Titan,5,4,GPE,"GPE:4,ORG:1","ACN,AMT,AVB",3
+NYSE,5,5,ORG,ORG:5,"ABT,AMT,AVB",3
+American Tower,4,2,ORG,"ORG:3,LOC:1",AMT,1
+In,4,3,ORG,ORG:4,"AMD,BA",2
+AvalonBay Communities,4,2,ORG,ORG:4,AVB,1
+BABA,4,4,ORG,ORG:4,BABA,1
+Broadcom,3,3,ORG,ORG:3,AVGO,1
+AMD,3,2,ORG,ORG:3,AMD,1
+Goldman Sachs,3,2,ORG,ORG:3,"AZN,BBD",2
+Wells Fargo,3,2,ORG,ORG:3,"AMD,AVGO",2
+Alibaba Group Holding Limited,3,2,ORG,ORG:3,BABA,1
+Alibaba,3,2,ORG,"ORG:2,NORP:1",BABA,1
+Wall St,3,3,LOC,LOC:3,"ABT,AMZN,AVGO",3
+Amazon,3,2,ORG,ORG:3,AMZN,1
+Business Daily,3,3,ORG,ORG:3,"AMD,BA,BAC",3
+CNBC,3,3,ORG,ORG:3,"AMZN,ASML,BAC",3
+AVB,2,2,ORG,ORG:2,AVB,1
+Trillion Club,2,2,ORG,ORG:2,"AAPL,AVGO",2
+Motley Fool,2,2,MISC,MISC:2,"AVGO,AZN",2
+BlackRock,2,1,ORG,ORG:2,ASML,1
+ASML,2,1,ORG,ORG:2,ASML,1
+American Electric Power Stock,2,1,ORG,ORG:2,AEP,1
+Taiwan Semiconductor,2,1,ORG,ORG:2,ASML,1
+Advanced Micro Devices,2,1,ORG,ORG:2,AMD,1
+AVGO,2,2,ORG,ORG:2,AVGO,1
+a Trending Stock&nbsp;&nbsp;Yahoo Finance,2,2,ORG,ORG:2,"ABT,BABA",2
+Saks,2,1,ORG,ORG:2,AMZN,1
+Stock Titan,2,2,ORG,ORG:2,"ACN,AMT",2
+TO,2,2,ORG,ORG:2,"ABT,AVB",2
+Nations Financial Group Inc.,2,2,ORG,ORG:2,"AXP,BABA",2
+Markets,2,2,ORG,"ORG:1,MISC:1","APA,BA",2
+Dow Advances,2,1,ORG,"ORG:1,MISC:1",APA,1
+Markets News,2,1,ORG,ORG:2,APA,1
+BAC,2,1,ORG,ORG:2,BAC,1
+Wall Street,2,2,LOC,LOC:2,"AAPL,BABA",2
+CoinCent,2,2,ORG,ORG:2,"BA,BABA",2
+vestor ' s Business Daily,2,2,ORG,ORG:2,"AMD,BA",2
+Investopedia,2,2,ORG,ORG:2,"ADBE,APA",2
+AP,2,2,ORG,ORG:2,APA,1
+Absolute Software Co.,2,1,ORG,ORG:2,ABT,1
+Wells Fargo Slip,2,1,ORG,ORG:2,BAC,1
+AstraZeneca,2,1,ORG,ORG:2,AZN,1
+Alibaba Group Holding,2,1,ORG,ORG:2,BABA,1
+American Express,2,1,ORG,ORG:2,AXP,1
+Apple,2,1,ORG,ORG:2,AAPL,1
+Banco Bradesco,2,1,PERSON,"PERSON:1,ORG:1",BBD,1
+MarketBeat,2,2,ORG,ORG:2,"AXP,BABA",2
+AI Revenue Surge,2,1,ORG,ORG:2,ACN,1
+Moment,2,2,ORG,"ORG:1,MISC:1","BABA,BBD",2
+Nations Financial Group Inc,2,2,ORG,ORG:2,"AXP,BABA",2
+Tariff News,2,1,ORG,ORG:2,AZN,1
+IA,2,2,GPE,GPE:2,"AXP,BABA",2
+Chinese,2,1,NORP,"NORP:1,MISC:1",BABA,1
+AM,2,2,ORG,ORG:2,"AMD,AMGN",2
+Accenture PLC,1,1,ORG,ORG:1,ACN,1
+Ho,1,1,PER,PER:1,AVGO,1
+The Economic Times,1,1,ORG,ORG:1,BAC,1
+Amazon Stock,1,1,ORG,ORG:1,AMZN,1
+January 14&nbsp;&nbsp;24/7,1,1,DATE,DATE:1,AMZN,1
+$5 Trillion Club,1,1,MONEY,MONEY:1,AAPL,1
+ACN,1,1,ORG,ORG:1,ACN,1
+ab&nbsp;&nbsp;The Economic Times,1,1,ORG,ORG:1,BAC,1
+today,1,1,DATE,DATE:1,BAC,1
+10%,1,1,PERCENT,PERCENT:1,AZN,1
+Barchart. com,1,1,ORG,ORG:1,AVGO,1
+PLC,1,1,ORG,ORG:1,ACN,1
+VG,1,1,ORG,ORG:1,AVGO,1
+ck Tan,1,1,PER,PER:1,AVGO,1
+1.70,1,1,MONEY,MONEY:1,AMT,1
+As,1,1,ORG,ORG:1,AZN,1
+AVGO Stock,1,1,ORG,ORG:1,AVGO,1
+$24 Million,1,1,MONEY,MONEY:1,AVGO,1
+Citi Pops On Bank,1,1,ORG,ORG:1,BAC,1
+Day,1,1,MISC,MISC:1,BAC,1
+Investor ' s Business Daily,1,1,ORG,ORG:1,BAC,1
+BAC Stock Gains On Bullish Q4 Print,1,1,ORG,ORG:1,BAC,1
+Stock,1,1,ORG,ORG:1,BAC,1
+AVGO Stock Dives,1,1,ORG,ORG:1,AVGO,1
+Goldman Sachs Sees,1,1,ORG,ORG:1,AZN,1
+China Risks Revive Broadcom Valuation,1,1,ORG,ORG:1,AVGO,1
+VGO,1,1,ORG,ORG:1,AVGO,1
+com,1,1,ORG,ORG:1,AVGO,1
+FXL,1,1,ORG,ORG:1,AVGO,1
+Pharmaceutical Giant,1,1,ORG,ORG:1,AZN,1
+traZeneca,1,1,ORG,ORG:1,AZN,1
+Hock Tan,1,1,PERSON,PERSON:1,AVGO,1
+Improved Capital,1,1,MISC,MISC:1,BBD,1
+AstraZeneca Stock,1,1,ORG,ORG:1,AZN,1
+AI Could Spell Trouble for Software,1,1,ORG,ORG:1,ADBE,1
+Motley,1,1,MISC,MISC:1,AAPL,1
+Jan.,1,1,DATE,DATE:1,AVB,1
+Na,1,1,MISC,MISC:1,APA,1
+Bombardier,1,1,ORG,ORG:1,BBD,1
+Returning to Profitability and Raising Production Guidance&nbsp;&nbsp;Yahoo Finance,1,1,ORG,ORG:1,APA,1
+5.2%,1,1,PERCENT,PERCENT:1,APA,1
+Gets,1,1,WORK_OF_ART,WORK_OF_ART:1,BA,1
+Boeing ' 26,1,1,ORG,ORG:1,BA,1
+Airline,1,1,ORG,ORG:1,BA,1
+1.75,1,1,MONEY,MONEY:1,AVB,1
+Data-Storage,1,1,ORG,ORG:1,APA,1
+EP,1,1,ORG,ORG:1,AEP,1
+February 2,1,1,DATE,DATE:1,AMT,1
+$340 Million,1,1,MONEY,MONEY:1,AVB,1
+APA Corporation's,1,1,ORG,ORG:1,APA,1
+Share Price,1,1,PERSON,PERSON:1,APA,1
+25%,1,1,PERCENT,PERCENT:1,APA,1
+APA Corporation,1,1,ORG,ORG:1,APA,1
+Major Stock Index,1,1,MISC,MISC:1,APA,1
+TSX,1,1,ORG,ORG:1,BBD,1
+Fool,1,1,ORG,ORG:1,AAPL,1
+FORT WASHINGTON INVESTMENT ADVISORS INC |OH|&nbsp;&nbsp;Quiver Quantitative,1,1,ORG,ORG:1,AVB,1
+quarterly,1,1,DATE,DATE:1,AMT,1
+Avoid One Stock,1,1,ORG,ORG:1,ADBE,1
+BD,1,1,ORG,ORG:1,BBD,1
+Improved Capital Generation and Earnings Momentum&nbsp;&nbsp;Yahoo Finance,1,1,ORG,ORG:1,BBD,1
+$26.2M $,1,1,MONEY,MONEY:1,AVB,1
+BBD,1,1,ORG,ORG:1,BBD,1
+Astrazeneca,1,1,ORG,ORG:1,AZN,1
+2013,1,1,DATE,DATE:1,ADBE,1
+Assessing Current Valuation After Notable Share Price Gains&nbsp;&nbsp;Yahoo Finance,1,1,WORK_OF_ART,WORK_OF_ART:1,BBD,1
+Astrazeneca (AZN) Stock Declines While Market Improves,1,1,ORG,ORG:1,AZN,1
+Adobe Stock,1,1,ORG,ORG:1,ADBE,1
+AD,1,1,ORG,ORG:1,ADBE,1
+soar&nbsp;&nbsp;TradingView,1,1,ORG,ORG:1,BA,1
+All,1,1,ORG,ORG:1,BA,1
+Bomb,1,1,ORG,ORG:1,BBD,1
+"Dec. 8, 2025",1,1,DATE,DATE:1,APA,1
+26,1,1,CARDINAL,CARDINAL:1,BA,1
+American Express Company $AXP Shares,1,1,ORG,ORG:1,AXP,1
+Bernstein Names Aerospace,1,1,ORG,ORG:1,BA,1
+Bernstein Names Aerospace Giant Top Pick,1,1,ORG,ORG:1,BA,1
+Digital Identity Partnership,1,1,ORG,ORG:1,ACN,1
+BABA Shares Sold,1,1,PERSON,PERSON:1,BABA,1
+IA ADV,1,1,ORG,ORG:1,BABA,1
+Dependable Dividend Stock for Income,1,1,ORG,ORG:1,ABT,1
+Chartmill,1,1,ORG,ORG:1,ABT,1
+$3 Trillion Club,1,1,MONEY,MONEY:1,AVGO,1
+Lobbying Update,1,1,PERSON,PERSON:1,AMGN,1
+"60,000",1,1,MONEY,MONEY:1,AMGN,1
+AMGEN INC,1,1,ORG,ORG:1,AMGN,1
+FKA HORIZON,1,1,ORG,ORG:1,AMGN,1
+THERAPEUTICS USA INC.,1,1,ORG,ORG:1,AMGN,1
+FKA H,1,1,ORG,ORG:1,AMGN,1
+USA,1,1,LOC,LOC:1,AMGN,1
+Friday,1,1,DATE,DATE:1,AMD,1
+NASDAQ,1,1,ORG,ORG:1,AMD,1
+Benzinga,1,1,ORG,ORG:1,AMD,1
+Wells Fargo Upgrades Broadcom Stock,1,1,ORG,ORG:1,AVGO,1
+84.6,1,1,MONEY,MONEY:1,ABT,1
+New,1,1,MISC,MISC:1,ABT,1
+Digital Identity Partnership&nbsp;&nbsp;Quiver Quantitative,1,1,ORG,ORG:1,ACN,1
+Goldman Sachs Group,1,1,ORG,ORG:1,AMT,1
+Lowered Expectations,1,1,ORG,ORG:1,AMT,1
+Amgen Inc,1,1,ORG,ORG:1,AMGN,1
+American Express Company,1,1,ORG,ORG:1,AXP,1
+IA AD,1,1,ORG,ORG:1,AXP,1
+255,1,1,MONEY,MONEY:1,AAPL,1
+test&nbsp;&nbsp;TechStock²,1,1,ORG,ORG:1,AAPL,1
+Amgen Inc.,1,1,ORG,ORG:1,AMGN,1
+AMGN,1,1,PERSON,PERSON:1,AMGN,1
+80%,1,1,PERCENT,PERCENT:1,AMGN,1
+the company&nbsp;&nbsp;Yahoo Finance,1,1,ORG,ORG:1,AMGN,1
+BAC Stock Gains On Bullish Q4 Print Guides,1,1,ORG,ORG:1,BAC,1
+The Goldman Sachs Group,1,1,ORG,ORG:1,AMT,1
+FY26&nbsp;&nbsp;Menafn,1,1,GPE,GPE:1,BAC,1
+vi,1,1,ORG,ORG:1,BABA,1
+ABT) Positioned to Benefit,1,1,ORG,ORG:1,ABT,1
+Healthcare Sector,1,1,ORG,ORG:1,ABT,1
+long weekend,1,1,DATE,DATE:1,AMD,1
+$311 million,1,1,MONEY,MONEY:1,AMD,1
+focus&nbsp;&nbsp;TechStock²,1,1,PRODUCT,PRODUCT:1,AMD,1
+AXP,1,1,ORG,ORG:1,AXP,1
+AB,1,1,MISC,MISC:1,ABT,1
+Compagnie Lombard Odier,1,1,ORG,ORG:1,ABT,1
+TSMC Budget Boosts ASML Stock: Why Morgan Stanley Analysts Target,1,1,ORG,ORG:1,ASML,1
+Chicago Data Center,1,1,ORG,ORG:1,AMT,1
+Daily,1,1,ORG,ORG:1,AMD,1
+Abbott Shows,1,1,PERSON,PERSON:1,ABT,1
+52,1,1,DATE,DATE:1,ABT,1
+Consecutive Increases Weren't,1,1,EVENT,EVENT:1,ABT,1
+Luck With Strong Cash Flow,1,1,PERSON,PERSON:1,ABT,1
+King Abbott,1,1,PER,PER:1,ABT,1
+CoreSite Chicago Data Center Campus Now Offers AWS Native,1,1,ORG,ORG:1,AMT,1
+G Direct Connect for Enhanced Cloud,1,1,ORG,ORG:1,AMT,1
+475,1,1,MONEY,MONEY:1,AMZN,1
+IBD,1,1,ORG,ORG:1,AMD,1
+Broadcom Inc. Stock,1,1,ORG,ORG:1,AVGO,1
+Drop,1,1,PERSON,PERSON:1,AVGO,1
+Broadcom Inc,1,1,ORG,ORG:1,AVGO,1
+Accenture Named,1,1,WORK_OF_ART,WORK_OF_ART:1,ACN,1
+Gartner ,1,1,ORG,ORG:1,ACN,1
+Digital Technology and Business Consulting,1,1,ORG,ORG:1,ACN,1
+Gartner  Magic Quadrant ,1,1,MISC,MISC:1,ACN,1
+Digital Technology and Business Consulting Services,1,1,ORG,ORG:1,ACN,1
+TSMC,1,1,ORG,ORG:1,AMD,1
+AI potential&nbsp;&nbsp;Investing.com,1,1,LAW,LAW:1,AMD,1
+70%,1,1,PERCENT,PERCENT:1,ASML,1
+TSE,1,1,ORG,ORG:1,ABT,1
+TSMC Budget,1,1,ORG,ORG:1,ASML,1
+AS,1,1,ORG,ORG:1,ASML,1
+ML,1,1,MISC,MISC:1,ASML,1
+Morgan Stanley,1,1,ORG,ORG:1,ASML,1
+Qwen App Gains,1,1,PERSON,PERSON:1,BABA,1
+AI Agent,1,1,MISC,MISC:1,BABA,1
+Qwen A,1,1,ORG,ORG:1,BABA,1
+ABT.TO,1,1,ORG,ORG:1,ABT,1
+111%,1,1,PERCENT,PERCENT:1,BABA,1
+Wells Fargo’s,1,1,ORG,ORG:1,AMD,1
+One Year,1,1,DATE,DATE:1,BABA,1
+baba,1,1,ORG,ORG:1,BABA,1
+AMD Stock Hits A Buy Point&nbsp;&nbsp;Investor's,1,1,ORG,ORG:1,AMD,1
+Dow,1,1,MISC,MISC:1,AMD,1
+AMD Stock Jumps,1,1,ORG,ORG:1,AMD,1
+Wells Fargo Names It,1,1,ORG,ORG:1,AMD,1
+FinanceAMD,1,1,ORG,ORG:1,AMD,1
+Business DailyAMD,1,1,ORG,ORG:1,AMD,1
+$3.7 Billion,1,1,MONEY,MONEY:1,AZN,1

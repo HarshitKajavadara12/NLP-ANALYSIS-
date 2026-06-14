@@ -1,0 +1,58 @@
+{
+  "event_types": {
+    "0": "EARNINGS_ANNOUNCEMENT",
+    "1": "MERGER_ACQUISITION",
+    "2": "PRODUCT_LAUNCH",
+    "3": "REGULATORY_ACTION",
+    "4": "EXECUTIVE_CHANGE",
+    "5": "LEGAL_ISSUE",
+    "6": "PARTNERSHIP_DEAL",
+    "7": "MARKET_DISRUPTION",
+    "8": "DIVIDEND_ANNOUNCEMENT",
+    "9": "RESTRUCTURING",
+    "10": "ANALYST_RATING",
+    "11": "ECONOMIC_INDICATOR"
+  },
+  "event_descriptions": {
+    "EARNINGS_ANNOUNCEMENT": "Quarterly or annual financial results release, earnings calls, guidance updates",
+    "MERGER_ACQUISITION": "Company mergers, acquisitions, takeovers, buyouts, consolidations",
+    "PRODUCT_LAUNCH": "New product/service releases, major updates, market entries",
+    "REGULATORY_ACTION": "Government actions, SEC filings, FDA approvals, regulatory compliance",
+    "EXECUTIVE_CHANGE": "CEO, CFO, or senior leadership appointments, departures, resignations",
+    "LEGAL_ISSUE": "Lawsuits, settlements, investigations, litigation, legal proceedings",
+    "PARTNERSHIP_DEAL": "Strategic partnerships, alliances, collaborations, joint ventures",
+    "MARKET_DISRUPTION": "Supply chain issues, outages, cybersecurity breaches, operational problems",
+    "DIVIDEND_ANNOUNCEMENT": "Dividend declarations, increases, cuts, share buyback programs",
+    "RESTRUCTURING": "Organizational restructuring, layoffs, cost-cutting measures, divestitures",
+    "ANALYST_RATING": "Analyst upgrades, downgrades, price target changes, research reports",
+    "ECONOMIC_INDICATOR": "GDP reports, inflation data, employment figures, Fed decisions"
+  },
+  "event_impact": {
+    "EARNINGS_ANNOUNCEMENT": "HIGH",
+    "MERGER_ACQUISITION": "HIGH",
+    "PRODUCT_LAUNCH": "MEDIUM",
+    "REGULATORY_ACTION": "HIGH",
+    "EXECUTIVE_CHANGE": "MEDIUM",
+    "LEGAL_ISSUE": "MEDIUM",
+    "PARTNERSHIP_DEAL": "MEDIUM",
+    "MARKET_DISRUPTION": "HIGH",
+    "DIVIDEND_ANNOUNCEMENT": "LOW",
+    "RESTRUCTURING": "MEDIUM",
+    "ANALYST_RATING": "LOW",
+    "ECONOMIC_INDICATOR": "HIGH"
+  },
+  "reverse_mapping": {
+    "EARNINGS_ANNOUNCEMENT": 0,
+    "MERGER_ACQUISITION": 1,
+    "PRODUCT_LAUNCH": 2,
+    "REGULATORY_ACTION": 3,
+    "EXECUTIVE_CHANGE": 4,
+    "LEGAL_ISSUE": 5,
+    "PARTNERSHIP_DEAL": 6,
+    "MARKET_DISRUPTION": 7,
+    "DIVIDEND_ANNOUNCEMENT": 8,
+    "RESTRUCTURING": 9,
+    "ANALYST_RATING": 10,
+    "ECONOMIC_INDICATOR": 11
+  }
+}

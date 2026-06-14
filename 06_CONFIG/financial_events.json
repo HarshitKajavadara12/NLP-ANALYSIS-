@@ -1,0 +1,254 @@
+{
+  "events": [
+    {
+      "id": 0,
+      "name": "EARNINGS_ANNOUNCEMENT",
+      "description": "Quarterly or annual financial results release",
+      "keywords": ["earnings", "quarterly results", "EPS", "beat estimates", "miss expectations", "guidance", "revenue", "profit"],
+      "patterns": [
+        "Q[1-4] \\d{4} earnings",
+        "beats? (earnings|EPS|estimates?)",
+        "reports? (quarterly|annual) (results?|earnings)",
+        "guidance for",
+        "announces? (results?|earnings)"
+      ],
+      "examples": [
+        "Apple reports Q1 earnings beat with record iPhone sales",
+        "Tesla misses EPS estimates, guides lower for next quarter",
+        "Microsoft announces quarterly results exceeding expectations"
+      ],
+      "market_impact": "HIGH",
+      "typical_price_reaction": "±5-15%"
+    },
+    {
+      "id": 1,
+      "name": "MERGER_ACQUISITION",
+      "description": "Company mergers, acquisitions, takeovers",
+      "keywords": ["merger", "acquisition", "M&A", "acquires", "buys", "takeover", "buyout", "purchase"],
+      "patterns": [
+        "(acquires?|purchases?|buys) .+ for \\$",
+        "merger (with|between)",
+        "takeover (bid|offer)",
+        "\\$\\d+[BM] (deal|acquisition)"
+      ],
+      "examples": [
+        "Microsoft acquires Activision Blizzard for $69 billion",
+        "Broadcom to buy VMware in $61 billion deal",
+        "Amazon announces acquisition of MGM Studios"
+      ],
+      "market_impact": "HIGH",
+      "typical_price_reaction": "±10-30%"
+    },
+    {
+      "id": 2,
+      "name": "PRODUCT_LAUNCH",
+      "description": "New product or service releases",
+      "keywords": ["launches", "unveils", "introduces", "releases", "announces new", "debuts", "rolls out"],
+      "patterns": [
+        "(launches?|unveils?|introduces?) (new|latest)",
+        "announces? (new|upcoming) (product|service)",
+        "rolls? out",
+        "debuts?"
+      ],
+      "examples": [
+        "Apple unveils new iPhone 15 with USB-C",
+        "Tesla launches Cybertruck after years of delays",
+        "Google introduces Gemini AI to compete with ChatGPT"
+      ],
+      "market_impact": "MEDIUM",
+      "typical_price_reaction": "±3-8%"
+    },
+    {
+      "id": 3,
+      "name": "REGULATORY_ACTION",
+      "description": "Government actions, regulatory compliance",
+      "keywords": ["SEC", "FTC", "FDA", "approval", "regulatory", "investigation", "compliance", "fine", "penalty"],
+      "patterns": [
+        "(SEC|FTC|FDA|DOJ) (files?|investigates?|approves?)",
+        "regulatory (approval|action|fine)",
+        "under investigation",
+        "receives? (approval|clearance)"
+      ],
+      "examples": [
+        "FDA approves Pfizer's COVID-19 vaccine for emergency use",
+        "FTC investigates Amazon for anti-competitive practices",
+        "SEC charges Tesla CEO with securities fraud"
+      ],
+      "market_impact": "HIGH",
+      "typical_price_reaction": "±5-20%"
+    },
+    {
+      "id": 4,
+      "name": "EXECUTIVE_CHANGE",
+      "description": "Senior leadership changes",
+      "keywords": ["CEO", "CFO", "resigns", "steps down", "appoints", "hires", "names", "succession"],
+      "patterns": [
+        "(CEO|CFO|COO|CTO) (resigns?|steps down|departs?)",
+        "(appoints?|names?|hires?) .+ as (CEO|CFO)",
+        "leadership (change|transition)",
+        "succession plan"
+      ],
+      "examples": [
+        "Bob Iger returns as Disney CEO, replacing Bob Chapek",
+        "Twitter CEO Jack Dorsey steps down",
+        "Intel names Pat Gelsinger as new CEO"
+      ],
+      "market_impact": "MEDIUM",
+      "typical_price_reaction": "±3-10%"
+    },
+    {
+      "id": 5,
+      "name": "LEGAL_ISSUE",
+      "description": "Lawsuits, settlements, investigations",
+      "keywords": ["lawsuit", "sues", "settlement", "litigation", "court", "trial", "verdict", "class action"],
+      "patterns": [
+        "files? lawsuit",
+        "sues? .+ for",
+        "reaches? settlement",
+        "court (rules?|orders?)",
+        "class action"
+      ],
+      "examples": [
+        "Shareholders sue Tesla over Elon Musk's buyout tweets",
+        "Google reaches $5 billion settlement in privacy lawsuit",
+        "Court orders Apple to pay $300M in patent case"
+      ],
+      "market_impact": "MEDIUM",
+      "typical_price_reaction": "±2-8%"
+    },
+    {
+      "id": 6,
+      "name": "PARTNERSHIP_DEAL",
+      "description": "Strategic partnerships and collaborations",
+      "keywords": ["partnership", "partners with", "collaboration", "alliance", "agreement", "deal", "joint venture"],
+      "patterns": [
+        "(partners?|collaborates?) with",
+        "strategic (partnership|alliance)",
+        "signs? (agreement|deal)",
+        "joint venture"
+      ],
+      "examples": [
+        "Apple partners with OpenAI to integrate ChatGPT",
+        "Ford announces collaboration with Tesla on charging",
+        "Microsoft signs cloud deal with Oracle"
+      ],
+      "market_impact": "MEDIUM",
+      "typical_price_reaction": "±2-6%"
+    },
+    {
+      "id": 7,
+      "name": "MARKET_DISRUPTION",
+      "description": "Supply chain issues, outages, breaches",
+      "keywords": ["outage", "breach", "hack", "cyberattack", "disruption", "supply chain", "shortage"],
+      "patterns": [
+        "(outage|breach|hack|cyberattack)",
+        "supply chain (disruption|issue)",
+        "data breach",
+        "(shortage|scarcity) of"
+      ],
+      "examples": [
+        "Facebook suffers major outage affecting billions",
+        "Colonial Pipeline hit by ransomware attack",
+        "Semiconductor shortage impacts auto production"
+      ],
+      "market_impact": "HIGH",
+      "typical_price_reaction": "±5-15%"
+    },
+    {
+      "id": 8,
+      "name": "DIVIDEND_ANNOUNCEMENT",
+      "description": "Dividend declarations and buybacks",
+      "keywords": ["dividend", "buyback", "share repurchase", "payout", "yield"],
+      "patterns": [
+        "(declares?|announces?|increases?) dividend",
+        "share (buyback|repurchase)",
+        "\\$\\d+[BM] buyback",
+        "dividend (increase|cut)"
+      ],
+      "examples": [
+        "Apple announces $90 billion share buyback program",
+        "Microsoft increases quarterly dividend by 10%",
+        "Ford suspends dividend to preserve cash"
+      ],
+      "market_impact": "LOW",
+      "typical_price_reaction": "±1-3%"
+    },
+    {
+      "id": 9,
+      "name": "RESTRUCTURING",
+      "description": "Organizational changes, layoffs",
+      "keywords": ["restructuring", "layoffs", "job cuts", "reorganization", "cost cutting", "divests"],
+      "patterns": [
+        "(layoffs?|job cuts?)",
+        "restructuring (plan|effort)",
+        "cuts? \\d+ jobs",
+        "divests? .+ (business|unit)"
+      ],
+      "examples": [
+        "Meta announces layoffs of 11,000 employees",
+        "IBM restructures, cutting 3,900 jobs",
+        "GE divests healthcare business in $20B deal"
+      ],
+      "market_impact": "MEDIUM",
+      "typical_price_reaction": "±2-8%"
+    },
+    {
+      "id": 10,
+      "name": "ANALYST_RATING",
+      "description": "Analyst upgrades, downgrades, price targets",
+      "keywords": ["upgrade", "downgrade", "rating", "price target", "analyst", "initiates coverage"],
+      "patterns": [
+        "(upgrades?|downgrades?) .+ to",
+        "(raises?|cuts?) price target",
+        "analyst (rating|coverage)",
+        "initiates? coverage"
+      ],
+      "examples": [
+        "Morgan Stanley upgrades Tesla to Overweight",
+        "Goldman Sachs cuts Apple price target to $150",
+        "JPMorgan initiates coverage on Nvidia with Buy rating"
+      ],
+      "market_impact": "LOW",
+      "typical_price_reaction": "±1-5%"
+    },
+    {
+      "id": 11,
+      "name": "ECONOMIC_INDICATOR",
+      "description": "Macroeconomic data releases",
+      "keywords": ["GDP", "inflation", "CPI", "unemployment", "Fed", "interest rate", "jobs report"],
+      "patterns": [
+        "(GDP|CPI|inflation) (report|data)",
+        "Fed (raises?|cuts?) (rates?|interest)",
+        "(unemployment|jobs) (report|data)",
+        "economic (growth|data)"
+      ],
+      "examples": [
+        "Fed raises interest rates by 0.75% to combat inflation",
+        "US GDP grows 2.1% in Q2, beating expectations",
+        "CPI inflation cools to 3.2%, lowest in two years"
+      ],
+      "market_impact": "HIGH",
+      "typical_price_reaction": "Market-wide ±2-5%"
+    }
+  ],
+  "event_relationships": {
+    "often_co_occur": [
+      ["EARNINGS_ANNOUNCEMENT", "ANALYST_RATING"],
+      ["MERGER_ACQUISITION", "REGULATORY_ACTION"],
+      ["EXECUTIVE_CHANGE", "RESTRUCTURING"],
+      ["PRODUCT_LAUNCH", "PARTNERSHIP_DEAL"]
+    ],
+    "causal_chains": [
+      ["LEGAL_ISSUE", "EXECUTIVE_CHANGE"],
+      ["MARKET_DISRUPTION", "RESTRUCTURING"],
+      ["REGULATORY_ACTION", "PARTNERSHIP_DEAL"],
+      ["EARNINGS_ANNOUNCEMENT", "DIVIDEND_ANNOUNCEMENT"]
+    ]
+  },
+  "temporal_windows": {
+    "immediate": "0-24 hours",
+    "short_term": "1-5 days",
+    "medium_term": "1-4 weeks",
+    "long_term": "1-6 months"
+  }
+}

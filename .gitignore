@@ -1,0 +1,103 @@
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Model Files (too large for git)
+04_MODELS/**/*.pkl
+04_MODELS/**/*.h5
+04_MODELS/**/*.pt
+04_MODELS/**/*.pth
+04_MODELS/**/*.bin
+*.pkl
+*.h5
+*.pt
+*.pth
+
+# Data Files (optional - comment out if you want to track)
+# 01_DATA/raw/*.csv
+# 01_DATA/processed/*.parquet
+
+# Cache Files
+*.cache
+*.bak
+*.dat
+*.dir
+scrape_cache.*
+nlp_data_cache.*
+
+# Log Files
+*.log
+logs/
+*.out
+
+# TensorFlow/PyTorch
+events.out.tfevents.*
+tensorboard_logs/
+checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Temporary Files
+*.tmp
+*.temp
+~*
+
+# Distribution / Packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+# Environments
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Elasticsearch / Docker
+elasticsearch/data/
+docker-compose.override.yml

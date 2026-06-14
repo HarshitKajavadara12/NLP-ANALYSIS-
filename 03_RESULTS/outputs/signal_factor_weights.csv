@@ -1,0 +1,6 @@
+Factor,Weight,Description
+Sentiment (35%),0.35,FinBERT sentiment + momentum + extremity
+Event Impact (25%),0.25,Event impact score + high-impact detection
+News Velocity (20%),0.2,Article count + burst detection + acceleration
+Entity Prominence (15%),0.15,Entity density + frequency
+Topic Relevance (5%),0.05,Topic dominance

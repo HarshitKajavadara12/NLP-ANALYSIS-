@@ -1,0 +1,89 @@
+{
+  "total_articles": 63,
+  "total_entities_extracted": 374,
+  "unique_entities": 226,
+  "avg_entities_per_article": 5.936507936507937,
+  "median_entities_per_article": 6.0,
+  "entity_types": {
+    "ORG": "156",
+    "MONEY": "13",
+    "DATE": "12",
+    "MISC": "12",
+    "PERSON": "10",
+    "PERCENT": "6",
+    "GPE": "3",
+    "LOC": "3",
+    "PER": "3",
+    "WORK_OF_ART": "3",
+    "NORP": "1",
+    "CARDINAL": "1",
+    "PRODUCT": "1",
+    "EVENT": "1",
+    "LAW": "1"
+  },
+  "top_10_entities": [
+    {
+      "entity": "Yahoo Finance",
+      "count": 12,
+      "primary_type": "ORG"
+    },
+    {
+      "entity": "Boeing",
+      "count": 7,
+      "primary_type": "ORG"
+    },
+    {
+      "entity": "Abbott Laboratories",
+      "count": 7,
+      "primary_type": "ORG"
+    },
+    {
+      "entity": "2026",
+      "count": 6,
+      "primary_type": "DATE"
+    },
+    {
+      "entity": "Bank of America",
+      "count": 6,
+      "primary_type": "ORG"
+    },
+    {
+      "entity": "BA",
+      "count": 6,
+      "primary_type": "ORG"
+    },
+    {
+      "entity": "ABT",
+      "count": 5,
+      "primary_type": "ORG"
+    },
+    {
+      "entity": "AI",
+      "count": 5,
+      "primary_type": "ORG"
+    },
+    {
+      "entity": "APA",
+      "count": 5,
+      "primary_type": "ORG"
+    },
+    {
+      "entity": "Titan",
+      "count": 5,
+      "primary_type": "GPE"
+    }
+  ],
+  "network_nodes": 2,
+  "network_edges": 1,
+  "network_density": 1.0,
+  "most_central_entities": [
+    [
+      "BA",
+      1.0
+    ],
+    [
+      "Boeing",
+      1.0
+    ]
+  ]
+}

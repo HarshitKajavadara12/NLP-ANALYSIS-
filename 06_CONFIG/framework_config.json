@@ -1,0 +1,98 @@
+{
+  "project": {
+    "name": "Financial News NLP Research",
+    "version": "1.0.0",
+    "description": "Institutional-grade NLP analysis of financial news"
+  },
+  "data": {
+    "raw_dir": "01_DATA/raw",
+    "processed_dir": "01_DATA/processed",
+    "features_dir": "01_DATA/features",
+    "training_dir": "01_DATA/training"
+  },
+  "models": {
+    "ensemble_dir": "04_MODELS/ensemble",
+    "base_models_dir": "04_MODELS/base_models"
+  },
+  "results": {
+    "visualizations_dir": "03_RESULTS/visualizations",
+    "metrics_dir": "03_RESULTS/metrics",
+    "outputs_dir": "03_RESULTS/outputs"
+  },
+  "collection": {
+    "max_articles_per_ticker": 50,
+    "rate_limit_delay": 1.0,
+    "min_article_length": 100,
+    "max_article_length": 50000
+  },
+  "preprocessing": {
+    "remove_duplicates": true,
+    "min_title_length": 10,
+    "text_encoding": "utf-8"
+  },
+  "sentiment": {
+    "models": ["finbert", "vader", "textblob"],
+    "finbert_model": "ProsusAI/finbert",
+    "batch_size": 32,
+    "max_length": 512
+  },
+  "ner": {
+    "spacy_model": "en_core_web_sm",
+    "bert_model": "dslim/bert-base-NER",
+    "entity_types": ["ORG", "PERSON", "GPE", "PRODUCT", "MONEY"]
+  },
+  "events": {
+    "categories": [
+      "Mergers & Acquisitions",
+      "Earnings Announcements",
+      "Product Launches",
+      "Regulatory Changes",
+      "Executive Changes",
+      "Legal Issues",
+      "Partnership Announcements",
+      "Market Disruptions",
+      "Technology Breakthroughs",
+      "ESG Controversies",
+      "Supply Chain Issues",
+      "Competitive Threats"
+    ]
+  },
+  "topic_modeling": {
+    "algorithm": "LDA",
+    "num_topics": 10,
+    "passes": 10,
+    "iterations": 400,
+    "alpha": "auto",
+    "eta": "auto"
+  },
+  "ensemble": {
+    "base_models": [
+      "logistic_regression",
+      "random_forest",
+      "gradient_boosting",
+      "xgboost",
+      "lightgbm",
+      "svm",
+      "naive_bayes",
+      "knn"
+    ],
+    "ensemble_methods": ["voting_hard", "voting_soft", "bagging", "boosting", "stacking"],
+    "test_size": 0.2,
+    "random_state": 42
+  },
+  "trading_signals": {
+    "signal_weights": {
+      "sentiment": 0.35,
+      "event_impact": 0.25,
+      "news_velocity": 0.20,
+      "entity_frequency": 0.15,
+      "topic_relevance": 0.05
+    },
+    "thresholds": {
+      "strong_buy": 0.7,
+      "buy": 0.4,
+      "sell": -0.4,
+      "strong_sell": -0.7
+    }
+  }
+}

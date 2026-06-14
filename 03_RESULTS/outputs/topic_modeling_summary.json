@@ -1,0 +1,164 @@
+{
+  "total_documents": 63,
+  "num_topics": 10,
+  "coherence_score": 0.6359958390452076,
+  "perplexity": -1.5735401622261163,
+  "vocabulary_size": 3,
+  "avg_document_length": 18.634920634920636,
+  "topic_distribution": {
+    "1": "54",
+    "4": "9"
+  },
+  "topic_keywords": [
+    {
+      "topic_id": 0,
+      "keywords": "price, finance, yahoo",
+      "top_words": [
+        "price",
+        "finance",
+        "yahoo"
+      ],
+      "word_probs": [
+        "0.55708706",
+        "0.22145747",
+        "0.22145547"
+      ]
+    },
+    {
+      "topic_id": 1,
+      "keywords": "finance, yahoo, price",
+      "top_words": [
+        "finance",
+        "yahoo",
+        "price"
+      ],
+      "word_probs": [
+        "0.65428185",
+        "0.34286276",
+        "0.0028553952"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "keywords": "finance, yahoo, price",
+      "top_words": [
+        "finance",
+        "yahoo",
+        "price"
+      ],
+      "word_probs": [
+        "0.46631894",
+        "0.3324815",
+        "0.20119955"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "keywords": "finance, yahoo, price",
+      "top_words": [
+        "finance",
+        "yahoo",
+        "price"
+      ],
+      "word_probs": [
+        "0.36044544",
+        "0.3333293",
+        "0.30622533"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "keywords": "price, finance, yahoo",
+      "top_words": [
+        "price",
+        "finance",
+        "yahoo"
+      ],
+      "word_probs": [
+        "0.9895355",
+        "0.0052323025",
+        "0.0052322512"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "keywords": "price, finance, yahoo",
+      "top_words": [
+        "price",
+        "finance",
+        "yahoo"
+      ],
+      "word_probs": [
+        "0.33333603",
+        "0.33333328",
+        "0.33333072"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "keywords": "price, finance, yahoo",
+      "top_words": [
+        "price",
+        "finance",
+        "yahoo"
+      ],
+      "word_probs": [
+        "0.33333573",
+        "0.33333275",
+        "0.3333315"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "keywords": "price, finance, yahoo",
+      "top_words": [
+        "price",
+        "finance",
+        "yahoo"
+      ],
+      "word_probs": [
+        "0.333335",
+        "0.33333325",
+        "0.33333173"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "keywords": "finance, price, yahoo",
+      "top_words": [
+        "finance",
+        "price",
+        "yahoo"
+      ],
+      "word_probs": [
+        "0.34852624",
+        "0.34852377",
+        "0.30295002"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "keywords": "price, finance, yahoo",
+      "top_words": [
+        "price",
+        "finance",
+        "yahoo"
+      ],
+      "word_probs": [
+        "0.33333516",
+        "0.33333325",
+        "0.33333156"
+      ]
+    }
+  ],
+  "date_range": {
+    "start": "2025-09-26 07:00:00",
+    "end": "2026-01-18 12:19:48"
+  },
+  "model_parameters": {
+    "passes": 10,
+    "iterations": 100,
+    "alpha": "auto",
+    "eta": "auto"
+  }
+}

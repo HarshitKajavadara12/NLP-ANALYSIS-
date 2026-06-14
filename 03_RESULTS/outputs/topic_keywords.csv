@@ -1,0 +1,11 @@
+topic_id,keywords,top_words,word_probs
+0,"price, finance, yahoo","['price', 'finance', 'yahoo']","[0.55708706, 0.22145747, 0.22145547]"
+1,"finance, yahoo, price","['finance', 'yahoo', 'price']","[0.65428185, 0.34286276, 0.0028553952]"
+2,"finance, yahoo, price","['finance', 'yahoo', 'price']","[0.46631894, 0.3324815, 0.20119955]"
+3,"finance, yahoo, price","['finance', 'yahoo', 'price']","[0.36044544, 0.3333293, 0.30622533]"
+4,"price, finance, yahoo","['price', 'finance', 'yahoo']","[0.9895355, 0.0052323025, 0.0052322512]"
+5,"price, finance, yahoo","['price', 'finance', 'yahoo']","[0.33333603, 0.33333328, 0.33333072]"
+6,"price, finance, yahoo","['price', 'finance', 'yahoo']","[0.33333573, 0.33333275, 0.3333315]"
+7,"price, finance, yahoo","['price', 'finance', 'yahoo']","[0.333335, 0.33333325, 0.33333173]"
+8,"finance, price, yahoo","['finance', 'price', 'yahoo']","[0.34852624, 0.34852377, 0.30295002]"
+9,"price, finance, yahoo","['price', 'finance', 'yahoo']","[0.33333516, 0.33333325, 0.33333156]"

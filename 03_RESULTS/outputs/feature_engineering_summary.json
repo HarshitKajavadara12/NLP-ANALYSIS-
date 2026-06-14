@@ -1,0 +1,31 @@
+{
+  "total_articles": 63,
+  "total_features": 93,
+  "engineered_features": 33,
+  "feature_categories": {
+    "sentiment": 9,
+    "entity": 5,
+    "event": 6,
+    "topic": 4,
+    "temporal": 8,
+    "news_velocity": 6,
+    "text_complexity": 5,
+    "composite": 4
+  },
+  "date_range": {
+    "start": "2025-09-26 07:00:00",
+    "end": "2026-01-18 12:19:48"
+  },
+  "companies_analyzed": 19,
+  "data_quality": {
+    "missing_values": 195,
+    "infinite_values": 0,
+    "completeness": 0.9062049062049062
+  },
+  "feature_statistics": {
+    "mean_sentiment": 0.11542698412698414,
+    "mean_impact": 0.007173968253968254,
+    "mean_importance": 0.0,
+    "mean_signal_strength": 0.0
+  }
+}
